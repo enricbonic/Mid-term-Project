@@ -1,0 +1,45 @@
+.contactUs{
+    margin: 10%
+}
+#fullName{
+   height: 60px;
+   width: 100%;
+   background-color: #D1EDFF;
+   border-style: none;
+}
+#email{
+    height: 60px;
+    background-color: #D1EDFF;
+    border-style: none;
+}
+#phone{
+    height: 60px;
+    background-color: #D1EDFF;
+    border-style: none;
+}
+#message{
+    height: 180px;
+    width: 100%;
+    background-color: #D1EDFF;
+    border-style: none;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.emailPhone{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    height: 60px;
+    width: 100%;
+}
+
+    

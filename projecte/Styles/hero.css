@@ -1,0 +1,20 @@
+.hero{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    margin: 10%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.hero>div{
+    display: flex;
+    flex-direction: column;
+}
+.hero>div>img{
+    height: 500px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+}

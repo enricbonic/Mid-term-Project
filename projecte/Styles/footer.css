@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+  
+}
+footer>div{
+    width: 30%;
+}
+p{
+    color: #6B708D;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100px;
+    color: #072AC8;
+}
+li:hover{
+    color: red;
+}

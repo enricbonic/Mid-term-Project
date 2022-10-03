@@ -1,0 +1,13 @@
+.servicesGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.servicesGrid>div{
+    background-color: white;
+}
+.servicesGrid>div>img{
+    height: 70px;
+    padding: 20px;
+    background-color: #ECF7FF;
+    border-radius: 50%;
+}

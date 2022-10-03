@@ -1,0 +1,10 @@
+.projectsGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.projectsGrid>div{
+    background-color: white;
+}
+.projectsGrid>div>img{
+    height: 200px;
+}
