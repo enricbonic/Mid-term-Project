@@ -1,20 +1,80 @@
 .hero{
-    height: 500px;
-    width: 80%;
+    height: 650px;
+    width: 90%;
     display: flex;
-    margin: 10%;
-    justify-content: space-around;
-    align-items: center;
-   
+    margin: 5%;
+    justify-content: space-between;
+
+    
 }
-.hero>div{
+.heroTextContainer{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
 }
-.hero>div>img{
-    height: 500px;
+.heroTextContainer h1{
+    font-size: 50px;
 }
+.heroTextContainer h3{
+    color: #6B708D;
+    margin-bottom: 70px;
+}
+
+.heroImageContainer {
+    display: flex;
+    background-image: url(../images/hero-section/hero-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    align-items: flex-start;
+
+    
+}
+
+.creditCard {
+    display: flex;
+    height: 250px;
+
+
+}
+.projectAccepted{
+    display: flex;
+    align-self: flex-end;
+    height: 250px;
+ 
+    
+
+}
+
+
 .sponsors{
+    width: 80%;
     display: flex;
     justify-content: space-around;
+    margin-left: 8%;
+    height: 96px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
+@media (max-width: 990px){
+    .hero{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .heroTextContainer{
+        text-align: center;
+    }
+    .heroImageContainer{
+height: 700px;
+    background-size: contain;
+    background-position: center;
+    justify-content: space-between;
+}
+.sponsors{
+    grid-template-columns: auto auto;
+    row-gap: 40px;
+}
+}
+
+

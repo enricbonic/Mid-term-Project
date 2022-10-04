@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content: space-around;
+    height: 242px;
   
 }
 footer>div{

@@ -1,13 +1,41 @@
+.ourServices{
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 561px;
+}
 .servicesGrid{
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 24px;
+    
+
 }
-.servicesGrid>div{
-    background-color: white;
+
+.servicesGrid .servicesCard{
+padding: 16px;
+background-color: white;
 }
-.servicesGrid>div>img{
-    height: 70px;
+.servicesGrid .servicesCard .cardImageWrapper {
+    height: 50px;
+    width: 50px;
     padding: 20px;
     background-color: #ECF7FF;
     border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.servicesGrid .servicesCard .cardImageWrapper img {
+    height: 50px;
+
+}
+@media (max-width: 700px){
+    .ourServices{
+        height: 1000px;
+    }
+    .servicesGrid{
+        grid-template-columns: auto;
+    }
 }

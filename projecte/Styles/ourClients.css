@@ -1,0 +1,51 @@
+.ourClients{
+    background-color: #292E47;
+    height: 622px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.ourClients h1{
+    color: white;
+}
+.ourClients h2{
+    color: #ffc600;
+}
+.clientProfile{
+    display: flex;
+    text-align: left;
+}
+.clientPhoto{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.clientProfile h4{
+    color: #43D2FF;
+    margin-top: 10px;
+}
+.clientProfile h5{
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.memojisClients{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    gap: 250%;
+    row-gap: 80%;
+    background-image: url(../images/testimonial-section/orbit.png);
+    background-size: cover;
+    margin: 40px;
+}
+    
+
+.memoji{
+    position: relative;
+    height: 150px;
+    
+}

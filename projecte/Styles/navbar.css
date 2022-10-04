@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    height: 0;
+    height: 122px;
     width: 100wh;
     align-items: flex-end;
 
@@ -29,4 +29,8 @@ button{
 }
 button:hover{
     background-color: #292E47;
+}
+
+@media (max-width: 990px) {
+    
 }

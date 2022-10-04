@@ -1,10 +1,48 @@
+.recentProjects{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    height: 561px;
+}
+.recentProjects h2{
+    font-size: 40px;
+}
 .projectsGrid{
     display: grid;
     grid-template-columns: auto auto auto;
-}
-.projectsGrid>div{
-    background-color: white;
+    gap: 24px;
 }
 .projectsGrid>div>img{
     height: 200px;
+    width: 100%;
+    
+}
+.projectsCard{
+height: 100%;
+width: 100%;
+background-color: white;
+}
+.cardText{
+    padding: 16px;
+
+}
+@media (max-width: 990px){
+    .recentProjects{
+        height: 861px;
+    }
+    .projectsGrid{
+        grid-template-columns: auto auto;
+        gap: 48px;
+    }
+}
+@media (max-width: 750px){
+    .recentProjects{
+        height: 1261px;
+    }
+    .projectsGrid{
+        grid-template-columns: auto;
+    }
+    .recentProjects h2{
+        text-align: center;
+    }
 }

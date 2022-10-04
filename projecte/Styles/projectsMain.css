@@ -1,0 +1,13 @@
+.principalProject{
+    width: 80%;
+    margin: 9%;
+    
+}
+
+.bigPhoto{
+    height: 444px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
