@@ -23,3 +23,20 @@
 .questions>h5{
     font-weight: lighter;
 }
+@media (max-width: 700px){
+    .questions>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions>div>input{
+margin-bottom: 10px;
+    }
+    .questions>div>button{
+width: 100%;
+    }
+}
+@media (max-width: 350px){
+    .questions>div>input{
+        width: 200px;
+            } 
+}

@@ -5,7 +5,7 @@ footer{
   
 }
 footer>div{
-    width: 30%;
+    width: 40%;
 }
 p{
     color: #6B708D;
@@ -16,7 +16,21 @@ ul{
     grid-template-columns: auto auto auto;
     height: 100px;
     color: #072AC8;
+    padding: 0;
+   
 }
 li:hover{
     color: red;
+}
+@media (max-width: 650px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    footer>div{
+        width: 100%;
+    }
 }

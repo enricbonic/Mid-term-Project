@@ -1,6 +1,6 @@
 .recentProjects{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 100px;
     height: 561px;
 }
@@ -10,17 +10,18 @@
 .projectsGrid{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 24px;
-}
-.projectsGrid>div>img{
-    height: 200px;
-    width: 100%;
-    
+    gap: 10%;
 }
 .projectsCard{
-height: 100%;
-width: 100%;
-background-color: white;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.projectsCard>img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover
+    
 }
 .cardText{
     padding: 16px;

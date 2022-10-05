@@ -6,6 +6,9 @@
     align-items: flex-end;
 
 }
+.navbar a.icon{
+    display:none;
+}
 .navbar>div>h4{
     width: 300px;
     display: flex;
@@ -31,6 +34,48 @@ button:hover{
     background-color: #292E47;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 600px) {
+    .navbar{
+        /* overflow: hidden; */
+    position: relative;
+    height: 50px;
+    }
+    .navbar>div>img{
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+    .navbar #myLinks{
+        display: none;
+    }
+     .navbar h4{
+    position: absolute;
+    right: 0;
+    top: 30px;
+     }
+    .navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: end;
+    }
+
+    .navbar a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
     
 }
