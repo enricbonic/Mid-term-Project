@@ -41,5 +41,15 @@
     height: 60px;
     width: 100%;
 }
-
+@media (max-width: 750px){
+    .emailPhone{
+        flex-direction: column;
+    }
+    .email{
+        width: 100%;
+    }
+    .phone{
+        width: 100%;
+    }
+}
     

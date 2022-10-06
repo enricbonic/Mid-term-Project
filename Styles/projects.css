@@ -1,8 +1,5 @@
 .recentProjects{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px 10%;
     height: 561px;
 }
 .recentProjects h2{
@@ -17,8 +14,11 @@
 }
 .projectsCard{
     height: 100%;
+    min-width: 100%;
     width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .projectsCard>img{
     height: 200px;
@@ -28,15 +28,18 @@
 }
 .cardText{
     margin: 16px;
+    width: 80%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
 
-    width: 80%;
 
 }
 
 
 @media (max-width: 990px){
     .recentProjects{
-        height: 861px;
+        height: 961px;
     }
     .projectsGrid{
         grid-template-columns: auto auto;
@@ -45,7 +48,7 @@
 }
 @media (max-width: 750px){
     .recentProjects{
-        height: 1261px;
+        height: 1361px;
     }
     .projectsGrid{
         grid-template-columns: auto;
@@ -53,4 +56,14 @@
     .recentProjects h2{
         text-align: center;
     }
+}
+@media (max-width: 450px){
+    .recentProjects{
+        height: 1550px;
+    }
+}
+@media (max-width: 350px){
+    .recentProjects{
+    height: 1750px;
+}
 }

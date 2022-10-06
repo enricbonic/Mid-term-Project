@@ -26,6 +26,7 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .clientProfile h4{
     color: #43D2FF;
