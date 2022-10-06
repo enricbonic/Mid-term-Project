@@ -27,15 +27,18 @@
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
-          </a>
+        </a>
     </header>
     <br>
 
-    <section class="principalProject">
-        <h1>Simplify</h1>
-        <h4>UI Design & App Development</h4>
+
+    <section class="principalProject" id="principalProject">
+        <div class="principalProject1" id="principalProject1">
+            <h1>Simplify</h1>
+            <h4>UI Design & App Development</h4>
+        </div>
         <div class="bigPhoto">
-            <img src="./images/projects-section/1.jpg" alt="">
+            <img id="img" src="./images/projects-section/1.jpg" alt="">
         </div>
         <p>Simplify is lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat faucibus sem, id vulputate
             justo ornare non. Nullam et vehicula sem. Pellentesque bibendum massa non nisl posuere cursus. Aliquam ac
@@ -58,26 +61,26 @@
         <div class="projectsGrid">
             <div class="projectsCard">
                 <img src="./images/projects-section/2.jpg" alt="Dashcoin">
-                <div class="cardText">
+                <div class="cardText" id="cardText1">
                     <h3>Dashcoin</h3>
                     <h5>Web Development</h5>
-                    <a href="projects">Learn More</a>
+                    <a href="./projects.html">Learn More</a>
                 </div>
             </div>
             <div class="projectsCard">
                 <img src="./images/projects-section/3.jpg" alt="Vectorify">
-                <div class="cardText">
+                <div class="cardText" id="cardText2">
                     <h3>Vectorify</h3>
                     <h5>User Experience Design</h5>
-                    <a href="projects">Learn More</a>
+                    <a href="./projects.html">Learn More</a>
                 </div>
             </div>
             <div class="projectsCard">
                 <img src="./images/projects-section/4.jpg" alt="Simplify">
-                <div class="cardText">
+                <div class="cardText" id="cardText3">
                     <h3>Orbit</h3>
                     <h5>UI Design</h5>
-                    <a href="projects">Learn More</a>
+                    <a href="./projects.html">Learn More</a>
                 </div>
             </div>
         </div>
@@ -114,6 +117,7 @@
 
     </footer>
     <script src="./src/index.js"></script>
+    <script src="./src/projects.js"></script>
 </body>
 
 </html>

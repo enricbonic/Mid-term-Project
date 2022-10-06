@@ -2,6 +2,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 100px;
+    margin-bottom: 100px;
     height: 561px;
 }
 .recentProjects h2{
@@ -10,7 +11,9 @@
 .projectsGrid{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10%;
+    gap: 5%;
+
+    
 }
 .projectsCard{
     height: 100%;
@@ -24,16 +27,20 @@
     
 }
 .cardText{
-    padding: 16px;
+    margin: 16px;
+
+    width: 80%;
 
 }
+
+
 @media (max-width: 990px){
     .recentProjects{
         height: 861px;
     }
     .projectsGrid{
         grid-template-columns: auto auto;
-        gap: 48px;
+        
     }
 }
 @media (max-width: 750px){

@@ -50,7 +50,8 @@
     height: 622px;
     width: 100%;
     background-image: url(../images/testimonial-section/orbit.png);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .memoji1{
