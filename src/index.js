@@ -15,7 +15,6 @@ const getData = async () => {
     const id = i;
     const response = await fetch('https://jsonplaceholder.typicode.com/posts/' + id );
     const data = await response.json();
-    console.log(data);
     projectTitle = data.title;
     projectDescription = data.body;
     getProject(projectTitle, projectDescription, id);
